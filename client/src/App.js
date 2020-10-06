@@ -33,7 +33,7 @@ class App extends Component {
       categoryDesc: post.categoryDesc,
       active: post.active,
     };
-    //console.log("Update", post);
+    console.log("Update", post);
     post.title = "UPDATED";
     await axios.put("api/categories" + "/" + post._id, postObj);
 
