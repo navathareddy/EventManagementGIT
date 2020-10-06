@@ -27,5 +27,3 @@ app.listen(port, console.log("listening to port 8000"));
 if (process.env.NODE_ENV == "production") {
   app.use(express.static("./client/build"));
 }
-
-console.log("test")
