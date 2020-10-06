@@ -18,7 +18,7 @@ class App extends Component {
       categoryDesc: "Arts&Painting",
       active: true,
     };
-    console.log(postObj, "-------------------------------");
+    //console.log(postObj, "-------------------------------");
     const { data: post } = await axios.post("api/categories", postObj);
     console.log("hi*********************************88", post);
     //add post at the begening of an array
