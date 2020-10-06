@@ -20,7 +20,7 @@ class App extends Component {
     };
     //console.log(postObj, "-------------------------------");
     const { data: post } = await axios.post("api/categories", postObj);
-    console.log("hi*********************************88", post);
+    //console.log("hi*********************************88", post);
     //add post at the begening of an array
     const posts = [post, ...this.state.posts];
     console.log("hi*********************************88", posts);
