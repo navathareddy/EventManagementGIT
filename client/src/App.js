@@ -29,7 +29,7 @@ class App extends Component {
 
   handleUpdate = async (post) => {
     const postObj = {
-      categoryName: "Helooo",
+      categoryName: "Eductional Workshops",
       categoryDesc: post.categoryDesc,
       active: post.active,
     };
